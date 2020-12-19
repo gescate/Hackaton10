@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+    let arr = [{ name: "John", age: 21, budget: 23000 },
+ { name: "Steve", age: 32, budget: 40000 },
+ { name: "Martin", age: 16, budget: 2700 }
+    ]
+
+
+    function getBudgets() {
+        let total = 0
+  for (let n = 0; n < arr.length; n++) {
+      total += arr[n].budget;
+      
+  }
+
+  console.log(total)
+} 
+getBudgets()
+   
+    </script>
+    
+</body>
+</html>
